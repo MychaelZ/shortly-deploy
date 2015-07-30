@@ -43,7 +43,7 @@
 
 <%  %>
 
-<% if (process.env.NODE_ENV === undefined) { %>
+<% if (process.NODE_ENV === 'production') { %>
   <script src='/dist/production.min.js'></script>
 <% } else { %>
   <script src='/client/app.js'></script>
