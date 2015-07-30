@@ -2,12 +2,19 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+
     concat: {
       dist: {
         src: [
-          'public/**/*.js'
+          'public/client/*.js'
         ],
         dest: 'public/dist/production.js'
+      },
+      dist2: {
+        src: [
+          'public/lib/*.js'
+        ],
+        dest: 'public/dist/lib.js'
       }
     },
 
@@ -30,7 +37,8 @@ module.exports = function(grunt) {
     uglify: {
       my_target: {
         files: {
-          'public/dist/production.min.js': ['public/dist/production.js']
+          'public/dist/production.min.js': 'public/dist/production.js',
+          'public/dist/lib.min.js': 'public/dist/lib.js'
         }
       }
     },
@@ -76,16 +84,15 @@ module.exports = function(grunt) {
     },
 
     shell: {
-      // prodServer: {
-        target: {
-          command: [
-            'git add .',
-            'git commit',
-            'git push azure master'
-            ].join(' && ')
-        }
-      // }
-    },
+      add: {
+        // command: [
+        //   'git add .',
+        //   'git commit',
+        //   'git push azure master'
+        // ].join(' && ')
+        command: 'git commit'
+      }
+    }
   });
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -127,6 +134,7 @@ module.exports = function(grunt) {
   grunt.registerTask('upload', function(n) {
     if(grunt.option('prod')) {
       // add your production server task here
+
     } else {
       grunt.task.run([ 'server-dev' ]);
     }
@@ -134,11 +142,8 @@ module.exports = function(grunt) {
 
   grunt.registerTask('deploy', [
     // add your production server task here
-    //'jshint',
-    //'test',
     'build',
     'shell'
   ]);
-
 
 };
