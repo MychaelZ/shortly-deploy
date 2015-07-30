@@ -85,12 +85,14 @@ module.exports = function(grunt) {
 
     shell: {
       add: {
-        // command: [
-        //   'git add .',
-        //   'git commit',
-        //   'git push azure master'
-        // ].join(' && ')
-        command: 'git commit'
+        command: [
+          'git add .',
+          'git reset HEAD public/client',
+          'git reset HEAD public/lib',
+          'git reset HEAD style.css',
+          'git commit -m "pushing to azure"',
+          'git push azure master'
+        ].join(' && ')
       }
     }
   });
