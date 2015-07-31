@@ -91,7 +91,8 @@ module.exports = function(grunt) {
           'git reset HEAD public/lib',
           'git reset HEAD public/style.css',
           'git commit -m "pushing to azure"',
-          'git push azure master'
+          'git push azure master',
+          'azure site browser'
         ].join(' && ')
       }
     }
