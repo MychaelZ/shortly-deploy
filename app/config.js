@@ -4,8 +4,9 @@ var crypto = require('crypto');
 var bcrypt = require('bcrypt-nodejs');
 var Promise = require('bluebird');
 
-var port = process.env.CUSTOMCONNSTR_MONGOLAB_URI || 'localhost:27017';
-module.exports.connection = mongoose.connect('mongodb://' + port);
+var host = process.env.CUSTOMCONNSTR_MONGOLAB_URI || 'localhost:27017';
+console.log('Connecting to', host);
+module.exports.connection = mongoose.connect('mongodb://' + host);
 
 var linkSchema = new Schema({
   url: String,
