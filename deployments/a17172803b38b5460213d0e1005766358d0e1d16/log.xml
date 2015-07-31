@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entries>
+  <entry time="2015-07-31T02:40:06.2949836Z" id="4b9fd89b-68aa-46a3-8631-9c285cc2d73c" type="0">
+    <message>Updating branch 'master'.</message>
+  </entry>
+  <entry time="2015-07-31T02:40:06.5606158Z" id="d2e4de59-fc35-4617-a5f7-22d464abe0c2" type="0">
+    <message>Updating submodules.</message>
+  </entry>
+  <entry time="2015-07-31T02:40:06.610399Z" id="e74d0697-c91e-4b95-b721-2b33f867af69" type="0">
+    <message>Preparing deployment for commit id 'a17172803b'.</message>
+  </entry>
+  <entry time="2015-07-31T02:40:06.7353931Z" id="091c8c37-185a-4592-960d-120f0cec189c" type="0">
+    <message>Running custom deployment command...</message>
+  </entry>
+  <entry time="2015-07-31T02:40:06.7666466Z" id="8fb4710c-b7ec-4fc7-bbfb-60bf6256a3ea" type="1">
+    <message>Running deployment command...</message>
+    <entry time="2015-07-31T02:40:06.7822676Z" id="56aecc01-23bf-47d0-8c5f-4290ab34353e" type="0">
+      <message>Command: bash deploy.sh</message>
+    </entry>
+    <entry time="2015-07-31T02:40:07.0057346Z" id="85b423b4-8e28-457a-99d6-538f72774858" type="0">
+      <message>Handling node.js deployment.</message>
+    </entry>
+    <entry time="2015-07-31T02:40:07.6268801Z" id="075da3d0-d940-4c6e-9dd2-c6c5a74cbd7b" type="0">
+      <message>KuduSync.NET from: 'D:\home\site\repository' to: 'D:\home\site\wwwroot'</message>
+    </entry>
+    <entry time="2015-07-31T02:40:07.6424779Z" id="eb004225-c7e1-41e4-823a-a690b202504c" type="0">
+      <message>Copying file: 'public\client\createLinkView.js'</message>
+    </entry>
+    <entry time="2015-07-31T02:40:07.6737919Z" id="924c47d7-fc3b-43f4-9203-411b586c1e1b" type="0">
+      <message>Copying file: 'public\dist\lib.js'</message>
+    </entry>
+    <entry time="2015-07-31T02:40:07.6737919Z" id="b1507a87-9c44-408b-bd34-b629f1610443" type="0">
+      <message>Copying file: 'public\dist\lib.min.js'</message>
+    </entry>
+    <entry time="2015-07-31T02:40:07.7049853Z" id="4a97b20a-9c37-4704-82a6-36b98c7b1844" type="0">
+      <message>Copying file: 'public\dist\production.js'</message>
+    </entry>
+    <entry time="2015-07-31T02:40:07.7049853Z" id="9cbbb23f-a812-462f-aba8-a70597600b94" type="0">
+      <message>Copying file: 'public\dist\production.min.js'</message>
+    </entry>
+    <entry time="2015-07-31T02:40:07.7206288Z" id="f8040cb7-6737-430c-942d-c2c47580c509" type="0">
+      <message>Copying file: 'public\dist\style.min.css'</message>
+    </entry>
+    <entry time="2015-07-31T02:40:07.7675049Z" id="60bb67d6-b0ae-4d6f-90a6-4b978077266c" type="0">
+      <message>Looking for app.js/server.js under site root.</message>
+    </entry>
+    <entry time="2015-07-31T02:40:07.783144Z" id="23dea751-a568-4ff6-99ab-52ffa19a4e26" type="0">
+      <message>Using start-up script server.js</message>
+    </entry>
+    <entry time="2015-07-31T02:40:07.8143562Z" id="50c79c36-96e5-4af9-a6bc-eb8a0bf20660" type="0">
+      <message>Generated web.config.</message>
+    </entry>
+    <entry time="2015-07-31T02:40:07.8299915Z" id="16ed64db-dae5-4fa5-bc66-9b572bc4a3cb" type="0">
+      <message>The package.json file does not specify node.js engine version constraints.</message>
+    </entry>
+    <entry time="2015-07-31T02:40:07.8299915Z" id="4541f7b2-ee22-4f68-bf64-cc4387ac7397" type="0">
+      <message>The node.js application will run with the default node.js version 0.10.32.</message>
+    </entry>
+    <entry time="2015-07-31T02:40:09.5331846Z" id="7fe6230d-f9ad-4f14-82b8-aa3d8edddf96" type="1">
+      <message>npm WARN prefer global grunt-cli@0.1.13 should be installed with -g</message>
+    </entry>
+    <entry time="2015-07-31T02:40:28.6535123Z" id="f87932fa-a0dc-42e7-a094-025f9c05b1fe" type="1">
+      <message>npm WARN prefer global grunt-cli@0.1.13 should be installed with -g</message>
+    </entry>
+    <entry time="2015-07-31T02:40:38.1226469Z" id="fc2a7814-ab25-4764-a12e-f56dd7058576" type="0">
+      <message>grunt-cli@0.1.13 node_modules\grunt-cli</message>
+    </entry>
+    <entry time="2015-07-31T02:40:38.1382755Z" id="550524e0-5758-4850-880b-165484d451f0" type="0">
+      <message>├── nopt@1.0.10 (abbrev@1.0.7)</message>
+    </entry>
+    <entry time="2015-07-31T02:40:38.1538652Z" id="8cb743bd-ca0b-4b6a-b56f-8d8040406919" type="0">
+      <message>├── resolve@0.3.1</message>
+    </entry>
+    <entry time="2015-07-31T02:40:38.1538652Z" id="b8ceaa5b-096a-49a2-a377-0b4ce952b26f" type="0">
+      <message>└── findup-sync@0.1.3 (lodash@2.4.2, glob@3.2.11)</message>
+    </entry>
+    <entry time="2015-07-31T02:40:46.3734115Z" id="f13fd571-32ae-427d-8983-332bdd3476d8" type="0">
+      <message>Running "concat:dist" (concat) task</message>
+    </entry>
+    <entry time="2015-07-31T02:40:51.1235093Z" id="4e3da2cc-a057-4125-b31d-bfe7b96ef842" type="0">
+      <message>File "public/dist/production.js" created.</message>
+    </entry>
+    <entry time="2015-07-31T02:40:51.157423Z" id="78cf5b08-f339-4e18-a6ce-d6e8b89fca33" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-07-31T02:40:51.157423Z" id="2d6a8108-78eb-42e5-9ec9-b14096fdc53b" type="0">
+      <message>Running "concat:dist2" (concat) task</message>
+    </entry>
+    <entry time="2015-07-31T02:40:51.185985Z" id="52f36094-c1d1-4536-912a-7dc84794f9b0" type="0">
+      <message>File "public/dist/lib.js" created.</message>
+    </entry>
+    <entry time="2015-07-31T02:40:51.2016443Z" id="181ea145-afce-440a-95b1-fc96bf361a6e" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-07-31T02:40:51.2172451Z" id="a735381f-83da-44a9-9c49-8cb10da205ae" type="0">
+      <message>Running "uglify:my_target" (uglify) task</message>
+    </entry>
+    <entry time="2015-07-31T02:40:51.2328774Z" id="9f097142-5025-497c-98fb-dbdbe287ea34" type="0">
+      <message>File public/dist/production.min.js created: 3.85 kB → 2.83 kB</message>
+    </entry>
+    <entry time="2015-07-31T02:40:51.2484861Z" id="c5b3ee52-fe6f-4a1a-b69d-dd1aab641a16" type="0">
+      <message>File public/dist/lib.min.js created: 464.59 kB → 165.66 kB</message>
+    </entry>
+    <entry time="2015-07-31T02:40:51.2641214Z" id="3054ccde-368d-4295-8a01-8edabec7a404" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-07-31T02:40:51.2797681Z" id="4dbb4966-0ac7-4985-9f1f-3dcfb5e520e6" type="0">
+      <message>Running "cssmin:target" (cssmin) task</message>
+    </entry>
+    <entry time="2015-07-31T02:40:51.2953732Z" id="3a4ce3d3-f608-42a0-8ec9-17234293f5be" type="0">
+      <message>File public/dist/style.min.css created: 1.78 kB → 1.27 kB</message>
+    </entry>
+    <entry time="2015-07-31T02:40:51.2953732Z" id="36ba6f2a-1a2a-4d0e-add9-9815cc8c85e0" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-07-31T02:40:51.3109897Z" id="38f94edb-4d08-46a7-bbab-ee5c825045b2" type="0">
+      <message>Done, without errors.</message>
+    </entry>
+    <entry time="2015-07-31T02:40:51.3578639Z" id="9b99fd56-333e-460b-ab75-7cffbb920f82" type="0">
+      <message>Finished successfully.</message>
+    </entry>
+  </entry>
+  <entry time="2015-07-31T02:40:51.4214611Z" id="4f78d915-6afe-4123-8800-da533b179dc3" type="0">
+    <message>Deployment successful.</message>
+  </entry>
+</entries>

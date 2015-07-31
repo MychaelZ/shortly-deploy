@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>cab2505a358fb6339644d6c4edc5392ca40bdb2f</id>
+  <author>Hack Reactor Students</author>
+  <deployer>MychaelZ</deployer>
+  <authorEmail>accounts@hackreactor.com</authorEmail>
+  <message>pushing to azure
+</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2015-07-30T19:23:47.2629244Z</lastSuccessEndTime>
+  <receivedTime>2015-07-30T19:23:04.1407626Z</receivedTime>
+  <startTime>2015-07-30T19:23:04.6837095Z</startTime>
+  <endTime>2015-07-30T19:23:47.2629244Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>

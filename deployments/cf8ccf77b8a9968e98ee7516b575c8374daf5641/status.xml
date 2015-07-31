@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>cf8ccf77b8a9968e98ee7516b575c8374daf5641</id>
+  <author>Hack Reactor Students</author>
+  <deployer>MychaelZ</deployer>
+  <authorEmail>accounts@hackreactor.com</authorEmail>
+  <message>change process.env.NODE_ENV
+</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2015-07-30T02:51:38.6499061Z</lastSuccessEndTime>
+  <receivedTime>2015-07-30T02:50:51.430997Z</receivedTime>
+  <startTime>2015-07-30T02:50:52.071615Z</startTime>
+  <endTime>2015-07-30T02:51:38.6499061Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>

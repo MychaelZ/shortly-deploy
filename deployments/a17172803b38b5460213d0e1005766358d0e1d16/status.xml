@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>a17172803b38b5460213d0e1005766358d0e1d16</id>
+  <author>Hack Reactor Students</author>
+  <deployer>MychaelZ</deployer>
+  <authorEmail>accounts@hackreactor.com</authorEmail>
+  <message>fix bug
+</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2015-07-31T02:40:51.4527181Z</lastSuccessEndTime>
+  <receivedTime>2015-07-31T02:40:06.1231247Z</receivedTime>
+  <startTime>2015-07-31T02:40:06.6416564Z</startTime>
+  <endTime>2015-07-31T02:40:51.4527181Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>
